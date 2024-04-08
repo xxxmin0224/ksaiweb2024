@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <title>ANIMATION</title>
+  <style>
+    div{
+      width: 100px; 
+      height: 100px;
+      margin: 100px;
+
+      animation: rotate 3s 0s alternate-reverse infinite linear;
+    }
+    @keyframes rotate{
+      from{ 
+        transform: rotate(0deg);
+        background-color: green;
+      }
+      to{ 
+        transform: rotate(360deg);
+        background-color: red;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div></div>
+</body>
+</html>

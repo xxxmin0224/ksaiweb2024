@@ -1,0 +1,15 @@
+
+p{
+    color: green;
+  }
+
+span{color:beige}
+.moon{color:palevioletred}
+
+#aa{color:plum}
+.abs{ border-radius: 10px 30px 50px 100px; }
+.bagel-fat one-regular {
+  font-family: "Bagel Fat One", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
